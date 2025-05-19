@@ -56,8 +56,8 @@ css_adicionar_button ='button[data-test="IsActionButtonSubmit"]'
 login_path = 'input[name="user"]'
 seguinte_button = 'button[data-test="screen-login_submit"]'
 senha_path = 'input[type="password"]'
-email = 'automacao.infraspeak@grupoorion.com.br'
-senha = 'orion'
+email = ''
+senha = ''
 
 field_enter_css(login_path,email)
 button_click_css(seguinte_button)
